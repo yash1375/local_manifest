@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="evo"
+           fetch="https://github.com/Evolution-X-Devices" />
+
+<remote  name="etylix"
+           fetch="https://github.com/etylix" />
+
+<project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="evo" revision="tiramisu"/>
+<project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="evo" revision="tiramisu"/>
+<project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes-header" remote="etylix" revision="12"  clone-depth="1"/>
+</manifest>
